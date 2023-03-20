@@ -13,21 +13,13 @@ const options={
   transition:transitions.SCALE
 }
 
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(
-//   <Provider store={store}>
-//     <AlertProvider template={AlertTemplate} {...options}>
-//       <App />
-//     </AlertProvider>
-//   </Provider>
-// );
-
-
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <Provider store={store}>
     <AlertProvider template={AlertTemplate} {...options}>
       <App />
     </AlertProvider>
-  </Provider>,
-  document.getElementById('root')
+  </Provider>
 );
+
+
