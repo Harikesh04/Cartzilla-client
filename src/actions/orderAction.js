@@ -33,7 +33,7 @@ export const createOrder = (order) => async (dispatch) => {
       const config = {
         headers: {
           "Content-Type": "application/json",
-        }, withCredentials: true
+        }, withCredentials: true,
       };
       const { data } = await axios.post(`${BASE_URL}/api/v1/order/new`, order, config);
   
@@ -106,8 +106,8 @@ export const updateOrder = (id, order) => async (dispatch) => {
     const config = {
       headers: {
         "Content-Type": "application/json",
-        withCredentials: true,
       },
+      withCredentials: true,
     };
     const { data } = await axios.put(
       `${BASE_URL}/api/v1/admin/order/${id}`,
