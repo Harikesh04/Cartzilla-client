@@ -1,1 +1,1 @@
-export const BASE_URL = "https://cartzilla-backend-p6o0.onrender.com/";
+export const BASE_URL = "https://cartzilla-backend-dev.onrender.com";
