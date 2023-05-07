@@ -2,10 +2,10 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 70vh;
-    background-color: rgb(10, 10, 41);
+    background-color: #333333;
    justify-items: auto;
    column-gap: 2px;
-   color: white;
+   color: #dcdc1d;
     
 }
 
@@ -15,14 +15,14 @@
     width: 25vw;
     padding: 4vmax 1vmax;
     box-sizing: border-box;
-    color: white;
+    color: #FFFFE0;
    
    
 }
 
 .footer-section1{
      height: 70vh;
-       color: white;
+       color: rgba(211, 202, 202, 0.351);
     width: 25vw;
    
     
@@ -41,12 +41,12 @@
 .footer-heading{
     font: 400 2vmax "Roboto";
     margin: 5vmax 0 2vmax 0;
-      color: white;
+      color: rgba(236, 228, 228, 0.732);
 }
 .footer-navlinks{
     display: flex;
     flex-direction: column;
-      color: white;
+      color: rgba(211, 202, 202, 0.351);
     
     
 }
@@ -54,7 +54,7 @@
     text-decoration: none;
     margin: 0.7vmax 0;
     font: 300 1.2vmax "Roboto";
-      color: white;
+      color: rgba(211, 202, 202, 0.351);
 }
 
 
@@ -99,7 +99,7 @@
     }
     .footer-section1{
         height: 25vh;
-          color: white;
+       
           display: flex;
        flex-direction: column;
        width: 100vw;
@@ -122,8 +122,7 @@
     width: 100vw;
     padding: 2vmax 1vmax;
     box-sizing: border-box;
-    color: white;
-   
+
   
     
    
@@ -133,7 +132,7 @@
 .footer-heading{
     font: 400 2vmax "Roboto";
     margin: 1vmax 0 0vmax 0;
-      color: white;
+    
       text-align: center;
      
       
@@ -148,7 +147,7 @@
     
 }
 .bottom-footer{
-    border-top: 0.2px solid white;
+  
      height: 5vmax;
      font: 300 1.2vmax "Roboto";
    

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import "./Navbar.css";
 import logo from "../../../images/navlogo.png";
@@ -9,12 +9,11 @@ import { GoX } from 'react-icons/go';
 
 const Navbar = () => {
 
-    const [clicked, setClicked] = useState(false)
-    console.log(clicked);
+    const [clicked, setClicked] = useState(false);
    
   return (
     <>
-    <div className="nav-conatiner">
+    <div className="nav-conatiner" >
         <div className="nav-logo">
         <a href="/">
           <Link to="/">
