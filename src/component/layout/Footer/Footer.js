@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <div className="footer-heading">Quick Links</div>
-          <div className="footer-navlinks">
+          <div className="footer-navlinks" style={{ fontFamily: 'Roboto' }}>
             <Link to="/about" >
              About Us
             </Link>
@@ -89,7 +89,7 @@ const Footer = () => {
         </div>
         
       </section>
-      <div className="bottom-footer"><MdCopyright/>  Copyright {year} CartZilla - All Rights Reserved </div>
+      <div  style={{ fontFamily: 'Roboto' }} className="bottom-footer"><MdCopyright/>  Copyright {year} CartZilla - All Rights Reserved </div>
     </Fragment>
   );
 };

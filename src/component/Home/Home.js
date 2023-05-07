@@ -74,9 +74,7 @@ const Home = () => {
 
   return (
     <>
-      {loading ? (
-        <Loader />
-      ) : (
+      {(
         <Fragment>
           <MetaData title="CartZilla" />
 
@@ -119,15 +117,15 @@ const Home = () => {
               Featured Products
             </motion.h2>
             <div className="container" id="container">
-              {products &&
+              { loading ? <Loader/> : products &&
                 products.map((product) => <ProductCard product={product} />)}
             </div>
           </section>
 
           <div className="home-services-contianer">
             <div className="service-header">
-              <motion.h1 {...headingOptions}>Some Services We Offer</motion.h1>
-              <motion.p {...textOptions}>
+              <motion.h1 {...headingOptions} style={{ fontFamily: 'Roboto' }}>Some Services We Offer</motion.h1>
+              <motion.p {...textOptions} style={{ fontFamily: 'Roboto' }}>
                 With our app you can view the route of your order, from our
                 local headquarters to the place where you are. Look for the app
                 now!
