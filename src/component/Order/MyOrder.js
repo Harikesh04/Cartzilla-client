@@ -62,7 +62,7 @@ const MyOrder = () => {
           </Link>
         );
       },
-    },
+    }
   ];
   const rows = [];
 
@@ -100,6 +100,7 @@ const MyOrder = () => {
             disableSelectionOnClick
             className="myOrdersTable"
             autoHeight
+
           />
         </div>
       )}

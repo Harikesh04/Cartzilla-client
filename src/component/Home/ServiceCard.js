@@ -19,7 +19,7 @@ const ServiceCard = ({ bgimage, image, title, disc }) => {
     <>
       <motion.div {...imgOptions} className="service-container">
         <img className="innerimage" src={image} alt="" />
-        <div className="ser-text" style={{ fontFamily: 'Roboto' }}>
+        <div className="ser-text" >
           <h1>{title}</h1>
           <p>{disc}</p>
         </div>

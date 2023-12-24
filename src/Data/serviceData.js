@@ -13,7 +13,7 @@ const Data =[
         bgImage: Feature1BgImg,
         title: 'Payment Done',
       description:
-        'Pay with a Credit or Debit card using Stripe without much ado',
+        'Pay with a Credit or Debit card using Stripe.',
     },
     {
         image: Feature2Img,
