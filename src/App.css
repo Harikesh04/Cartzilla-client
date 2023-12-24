@@ -1,6 +1,7 @@
 *{
     margin: 0;
     scroll-behavior: smooth;
+    font-family: 'Roboto';
    
 }
 
@@ -32,5 +33,9 @@ input[type="number"] {
   }
   .redColor {
     color: red !important;
+  }
+  .h-screen{
+    height: 85vh;
+    overflow-y: auto;
   }
   

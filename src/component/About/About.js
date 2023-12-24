@@ -38,8 +38,7 @@ const About = () => {
           </div>
           <div className="aboutSectionContainer2">
             <h2>
-            I am currently a third-year IT undergraduate student at MITSG. My areas of expertise include full-stack web development and competitive programming. I have solved over 700+ coding problems on various platforms and have gained over six months of experience as a Software Developer Engineer intern. My proficiency in web development includes hands-on practice with ReactJS, Redux, NodeJS, ExpressJS, Spring Boot, Java, AWS, CSS, JavaScript, Tailwind CSS, Git, and GitHub, Jira.
-            </h2>
+            🌟 Harikesh Singh, B.Tech IT student. Created this project in my 2nd year for web development mastery. Now open for exciting opportunities. Connect with me at singhharikesh294@gmail.com. Let's talk possibilities! 🚀            </h2>
             
             
            

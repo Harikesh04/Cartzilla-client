@@ -58,7 +58,7 @@ const Products = () => {
       {loading ? (
         <Loader />
       ) : (
-        <Fragment>
+        <div className='h-screen'>
           <MetaData title="PRODUCTS -- CartZilla" />
           <h2 className="productsHeading">Products</h2>
 
@@ -165,7 +165,7 @@ const Products = () => {
               />
             </div>
           )}
-        </Fragment>
+        </div>
       )}
       <Footer/>
     </Fragment>
