@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: center;
    
-    background-color: #ed1e79;
+
    
   font-family: "Roboto";
     width: 100vw;
@@ -19,11 +19,6 @@
     cursor: pointer;
     
     
-}
-
-.hero-img:hover{
-   
-   
 }
 
 .hero-left{
@@ -70,40 +65,14 @@
     
     
 }
-.hero-left>button::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color:white;
-    width: 100%;
-    height: 100%;
-    transition: all linear 0.5s;
-    transform: translateX(-100%);
-   
-   
-   
-    z-index: 1;
-}
-.hero-left>button:hover:before{
-    transform: translateX(0);
-    z-index: -1;
-}
-.hero-left>button:hover{
-    color:#ed1e79;
-}
+
 .hero-left>button>a{
     text-decoration: none;
     color:white;
     padding: 2vmax 1vmax;
 }
-.hero-left>button>a:hover{
-   
-    color:#ed1e79;
-    z-index: 1;
-    transition: all linear 0.5s;
-   
-}
+
+
 
 
 
@@ -202,7 +171,8 @@
 }
 
 .productCard{
-    width: 16vmax;
+    width: 13vmax;
+    padding: 20px;
     height: 30vmax;
     overflow-y: auto;
     display: flex;
@@ -213,7 +183,7 @@
     margin:2vmax;
     transition: all 0.5s;
     padding-bottom: 0.5vmax;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
    
 }
 
@@ -254,8 +224,8 @@
 }
 
 .productCard:hover{
-    box-shadow: 0 0 5px rgba(15, 15, 15, 0.521);
-    transform: translateY(-1vmax);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: translateY(-0.5vmax);
 }
 .home-services-contianer{
     width: 100vw;
